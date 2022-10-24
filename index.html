@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign up</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-container">
+            <img src="images/food.png" alt="" />
+            <div id="logo-container">
+                <div>
+                    <img id="logo" src="images/logo.png" alt="" />
+                </div>
+                <div class="logo-text">FOOD</div>
+
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="form-div">
+                <h1>Lets do this!</h1>
+                <form id="form1">
+                    <div>
+                        <label for="firstName">First Name</label>
+                        <input type="text" required id="firstName" />
+                    </div>
+                    <div>
+                        <label for="lastName">Last Name</label>
+                        <input type="text" required id="lastName" />
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" required id="email" />
+                    </div>
+                    <div>
+                        <label for="phoneNumber">Phone Number</label>
+                        <input type="number" required id="phoneNumber" />
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input name="password" required type="password" id="password" />
+                    </div>
+                    <div>
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input name="confirmPassword" required type="password" id="confirmPassword" />
+                    </div>
+                </form>
+            </div>
+            <div id="bottom-form">
+                <button type="submit" form="form1">Create Account</button>
+                <p>Already have an account? <span>Log in</span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
